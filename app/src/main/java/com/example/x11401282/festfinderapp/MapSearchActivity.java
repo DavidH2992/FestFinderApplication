@@ -27,10 +27,14 @@ public class MapSearchActivity extends FragmentActivity implements OnMapReadyCal
         festMap = googleMap;
 
         // Add a marker in Sydney, Australia, and move the camera.
-        LatLng sydney = new LatLng(-34, 151);
-        festMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        festMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng tomorrowland = new LatLng(51.091482, 4.385362);
+        festMap.addMarker(new MarkerOptions().position(tomorrowland).title("Tomorrowland"));
+        festMap.moveCamera(CameraUpdateFactory.newLatLng(tomorrowland));
     }
 }
 
+
+
+
+//51.091482 , 4.385362
 //https://developers.google.com/maps/documentation/android-api/start

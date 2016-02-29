@@ -1,10 +1,12 @@
 <resources>
-    <string name="app_name">FestFinderApp</string>
+    <string name="app_name">FestFinder</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_guide">GuideActivity</string>
-    <string name="title_activity_search">SearchActivity</string>
-    <string name="title_activity_profile">ProfileActivity</string>
-    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_guide">Festival Guide</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_news">News</string>
     <string name="title_activity_map_search">Map</string>
-    <string name="title_activity_tips">TipsActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Sign In</string>
+
 </resources>
